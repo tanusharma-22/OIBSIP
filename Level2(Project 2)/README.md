@@ -1,16 +1,83 @@
-Idea: Wine Quality Prediction
+Objective:
 
- Description:
- The focus is on predicting the quality of wine based on its chemical characteristics, offering a
- real-world application of machine learning in the context of viticulture. The dataset
- encompasses diverse chemical attributes, including density and acidity, which serve as the
- features for three distinct classifier models.
+To predict the quality of wine based on its physicochemical (chemical) properties using supervised machine learning classification models. This project uses Random Forest, Stochastic Gradient Descent, and Support Vector Classifier to analyze how chemical attributes affect wine quality.
 
-Key Concepts and Challenges:
- 1.Classifier Models: Utilizing Random Forest, Stochastic Gradient Descent, and Support
- Vector Classifier (SVC) for wine quality prediction.
- 2.Chemical Qualities: Analyzing features like density and acidity as predictors for wine quality.
- 3.Data Analysis Libraries: Employing Pandas for data manipulation and Numpy for array
- operations.
- 4.Data Visualization: Using Seaborn and Matplotlib for visualizing patterns and insights in the
- dataset
+🧭 Steps Performed:
+
+1. Data Collection
+   
+Dataset: WineQT.csv
+
+Contains features like alcohol, density, volatile acidity, etc. with a target variable quality.
+
+2. Data Exploration & Cleaning
+   
+Checked for missing values and data types.
+
+Performed statistical summaries and plotted distributions.
+
+No major cleaning was needed.
+
+3. Feature Analysis
+Explored relationships between chemical properties and quality.
+
+Visualized using heatmaps, boxplots, and pair plots.
+
+4. Data Preprocessing
+Separated features (X) and target (y).
+
+Applied train-test split (80-20).
+
+Standardized features for models that require scaling (SGD, SVC).
+
+5. Model Training
+Trained three classifiers:
+
+Random Forest
+
+Stochastic Gradient Descent (SGD)
+
+Support Vector Classifier (SVC)
+
+6. Model Evaluation
+   
+Evaluated models using:
+
+Accuracy
+
+Classification Report (Precision, Recall, F1-score)
+
+Confusion Matrix
+
+7. Visualization
+   
+Correlation heatmap
+
+Distribution of wine quality
+
+Boxplots (feature vs quality)
+
+Pair plots
+
+Scatter plot (Alcohol vs Volatile Acidity)
+
+🛠️ Tools & Libraries Used:
+
+Python
+
+Pandas (Data manipulation)
+
+NumPy (Numerical operations)
+
+Matplotlib & Seaborn (Data visualization)
+
+Scikit-learn (Machine learning models & evaluation)
+
+✅ Outcome:
+
+Found Alcohol has strong positive correlation with wine quality, while volatile acidity and density show negative correlation.
+
+Best performance observed from Random Forest Classifier.
+
+Classification metrics help evaluate model bias and variance.
+
