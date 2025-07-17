@@ -1,3 +1,5 @@
+Note: The csv file is too large, that's why i'm not able to upload.
+
 Data Integrity: Ensuring the accuracy, consistency, and reliability of data throughout the
  cleaning process.
  Missing Data Handling: Dealing with missing values by either imputing them or making
