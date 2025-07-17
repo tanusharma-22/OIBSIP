@@ -20,5 +20,6 @@ Description:
  
  5.Interactive Visualization:
  Utilize code for compelling visualizations.
+ 
  6.Skill Enhancement:
  Integrate insights from the "Understanding Data Visualization" course.
